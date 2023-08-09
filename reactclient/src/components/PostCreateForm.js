@@ -25,7 +25,7 @@ export default function PostCreateForm(props) {
             content: formData.content
         };
 
-        const url = Constants.API_URL_CREATE_POST;
+        const url = "https://footyfunhub.azurewebsites.net/create-post";
 
         fetch(url, {
             method: 'POST',

@@ -25,7 +25,7 @@ export default function PostUpdateForm(props) {
             content: formData.content
         };
 
-        const url = Constants.API_URL_UPDATE_POST;
+        const url = "https://footyfunhub.azurewebsites.net/update-post";
 
         fetch(url, {
             method: 'PUT',
