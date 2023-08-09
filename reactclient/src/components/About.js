@@ -1,6 +1,6 @@
 import React from "react";
-import "/Users/jameslian/Documents/aspnetserver/reactclient/src/about.css"
-import NavBar from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/NavBar.js"
+import "../about.css"
+import NavBar from "./NavBar.js"
 const About = () =>{
     return(
         <div className="App"><HeroSection /></div>

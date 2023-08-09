@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router";
 import React, { useState } from "react";
-import Constants from "./utilities/Constants";
+import Constants from "./Utilities/Constants";
 import PostCreateForm from "./components/PostCreateForm";
 import PostUpdateForm from "./components/PostUpdateForm";
 import About from "./components/About";
 import Account from "./components/Account";
 import Home from "./components/Home";
-import NavBar from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/NavBar.js"
+import NavBar from "./components/NavBar.js"
 import "./styles.css"
 
 

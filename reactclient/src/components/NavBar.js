@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import styles from "/Users/jameslian/Documents/aspnetserver/reactclient/src/styles.css"
+import styles from "../styles.css"
 
 
 const Navbar = () => {

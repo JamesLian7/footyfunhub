@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router";
 import React, { useState } from "react";
-import Constants from "../utilities/Constants.js";
-import PostCreateForm from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/PostCreateForm.js";
-import PostUpdateForm from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/PostUpdateForm.js";
-import About from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/About.js";
-import Account from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/Account.js";
-import NavBar from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/NavBar.js"
+import Constants from "../Utilities/Constants.js";
+import PostCreateForm from "./PostCreateForm.js";
+import PostUpdateForm from "./PostUpdateForm.js";
+import About from "./About.js";
+import Account from "./Account.js";
+import NavBar from "./NavBar.js"
 
 export default function App() {
     const [posts, setPosts] = useState([]);

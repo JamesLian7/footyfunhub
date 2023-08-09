@@ -235,7 +235,7 @@ min-height: 100vh;
 }
 
 .background-image {
-background-image: url('/Users/jameslian/Documents/aspnetserver/reactclient/src/images/container.jpg'); 
+background-image: url('./images/container.jpg'); 
 position: absolute;
 top: 0;
 left: 0;

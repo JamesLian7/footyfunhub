@@ -1,6 +1,6 @@
 import React from 'react';
-import Account from '/Users/jameslian/Documents/aspnetserver/reactclient/src/Account.css'
-import NavBar from "/Users/jameslian/Documents/aspnetserver/reactclient/src/components/NavBar.js"
+//import Account from '/Users/jameslian/Documents/aspnetserver/reactclient/src/Account.css'
+import NavBar from "./NavBar.js"
 function LoginForm() {
   const login = () => {
     // Perform login logic here
