@@ -13,7 +13,7 @@ export default function App() {
     const [postCurrentlyBeingUpdated, setPostCurrentlyBeingUpdated] = useState(null);
   
     function getPosts() {
-      const url = "footyfunhub.azurewebsites.net/get-all-posts";
+      const url = "https://footyfunhub.azurewebsites.net/get-all-posts";
   
       fetch(url, {
         method: 'GET'
@@ -24,6 +24,7 @@ export default function App() {
         })
         .catch((error) => {
           console.log(error);
+          console.log(response);
           alert(error);
         });
     }
