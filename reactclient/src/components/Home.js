@@ -24,13 +24,13 @@ export default function App() {
         })
         .catch((error) => {
           console.log(error);
-          console.log(response);
+          console.log(url);
           alert(error);
         });
     }
   
     function deletePost(postId) {
-      const url = `${Constants.API_URL_DELETE_POST_BY_ID}/${postId}`;
+      const url = `${"https://footyfunhub.azurewebsites.net/delete-post-by-id"}/${postId}`;
   
       fetch(url, {
         method: 'DELETE'
